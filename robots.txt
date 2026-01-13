@@ -1,0 +1,21 @@
+# robots.txt for 1xegp.com
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cache/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://1xegp.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
